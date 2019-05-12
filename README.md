@@ -6,10 +6,15 @@ The goal of this module is to extract text from images of pylons with objects wi
 
 ## Usage
 
-WIP
+``` shell
+sh ./scripts/start.sh
+```
 
 ## Installation
-WIP
+
+``` shell
+sh ./scripts/build.sh
+```
 
 ## Attributions
 This module uses many technologies and tools, some are listed below.
@@ -17,3 +22,4 @@ This module uses many technologies and tools, some are listed below.
 - Python
 - OpenCV
 - Tesseract
+- iPython
