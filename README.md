@@ -7,6 +7,7 @@ The goal of this module is to extract text from images of pylons with objects wi
 ## Usage
 
 ``` shell
+cd scripts
 sh ./scripts/start.sh
 ```
 
