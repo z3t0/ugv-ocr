@@ -2,6 +2,7 @@ FROM tesseract
 
 # Working directory
 RUN mkdir /usr/src/app
-WORKDIR /usr/src/app
+WORKDIR /usr/src/app/ocr-module
 
-CMD ["bash"]
+
+ENTRYPOINT ["/usr/src/app/scripts/entrypoint.sh"]
